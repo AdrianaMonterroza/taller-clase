@@ -1,11 +1,15 @@
-// Programa que calcula el total de una compra en el supermercado
+//Punto dos
 
-let producto1 = Number(prompt("Ingresa el precio del primer producto:"));
-let producto2 = Number(prompt("Ingresa el precio del segundo producto:"));
-let producto3 = Number(prompt("Ingresa el precio del tercer producto:"));
+//Para un evento, necesito un banner. Pide el **ancho y el alto** de una pared (en metros) y calcula su **área** para saber cuánto material comprar.
 
-let total = producto1 + producto2 + producto3;
+let ancho = Number(prompt("Ingresa el ancho de la pared en metros:"));
+let alto = Number(prompt("Ingresa el alto de la pared en metros:"));
 
-console.log("El total a pagar es: $" + total);
+let area = ancho * alto;
+
+console.log("El área del banner es: " + area + " metros cuadrados.");
+
+
+
 
 
