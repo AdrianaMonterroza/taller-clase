@@ -32,9 +32,20 @@
 //Cuarto punto
 // Mi app del clima solo muestra la temperatura en grados Fahrenheit. Pide la temperatura en °F y conviértela a grados Celsius.
 
-let Fahrenheit = Number(prompt("Ingresa la temperatura en grados Fahrenheit (°F):"));
-celsius = (Fahrenheit - 32) * 5/9;
-console.log("La temperatura en grados Celsius es: " + celsius + " °C");
+// let Fahrenheit = Number(prompt("Ingresa la temperatura en grados Fahrenheit (°F):"));
+// celsius = (Fahrenheit - 32) * 5/9;
+// console.log("La temperatura en grados Celsius es: " + celsius + " °C");
+
+
+//Quinto punto
+//Necesito saber la edad de un usuario. Pide su año de nacimiento y, asumiendo que el año actual es 2024, calcula cuántos años tiene.
+
+let añoNacimiento = Number(prompt("Ingrese su año de nacimiento:"));
+let añoActual = 2024;
+
+let edad = añoActual - añoNacimiento;
+
+console.log ("Tu edad es: " + edad + "años"); 
 
 
 
